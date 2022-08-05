@@ -6,6 +6,7 @@ int factoriel(int x)
     {
         f = f * i;
     }
+    return f;
 }
 int main()
 {

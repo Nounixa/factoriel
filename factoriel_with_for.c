@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int x, i, f = 1;
+    int x, i, f =1;
     printf("enter un nombre\n");
     scanf("%d", &x);
     if (x == 0)
@@ -14,7 +14,8 @@ int main()
     }
     else
     {
-        for (i = 1; i <= x; i++)
+        
+        for (i = 2; i <= x; i++)
         {
             f = f * i;
         }
